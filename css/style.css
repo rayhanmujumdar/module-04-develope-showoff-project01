@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spline Sans', sans-serif;
+}
+/* section 01 start form here */
+.welcome-section{
+    width: 100%;
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    
+}
+img{
+    max-width: 90%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.content h1{
+    font-size: 50px;
+}
+.content .into{
+    font-size: 50px;
+    padding: 20px 0;
+}
+.content span{
+    color: #FFA500;
+}
+.content h3{
+    padding: 20px 0;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: gray;
+}
+.btn{
+    border: 1px solid none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background:linear-gradient(to left,red,black);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background:linear-gradient(to right,red,green);
+}
+/* section 02 start from here */
+.dream-section{
+    width: 100%;
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}

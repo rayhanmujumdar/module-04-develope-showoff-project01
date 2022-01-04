@@ -21,9 +21,8 @@ img{
     max-width: 90%;
 }
 .half-width{
-    width: 50%;
-    margin-left: 40px;
-    padding-left: 30px;
+    width: 40%;
+    margin-left: 10%;
 }
 .content h1{
     font-size: 50px;
@@ -79,7 +78,7 @@ img{
 .exp-item{
     width: 40%;
     box-shadow: 10px 10px 40px gray;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     padding: 20px;
 }
@@ -92,14 +91,14 @@ img{
 }
 #full-stack{
     border-left: 7px solid;
-    border-radius: 5px;
+    border-radius: 10px;
     border-image:linear-gradient(180deg,red,blue);
     border-image-slice: 1;
     height: 80%;
 }
 #baby-stack{
     border-left: 7px solid;
-    border-radius: 5px;
+    border-radius: 10px;
     border-image:linear-gradient(180deg,green,blue);
     border-image-slice: 1;
 

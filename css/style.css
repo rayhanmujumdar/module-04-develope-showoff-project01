@@ -14,6 +14,7 @@ body{
 .row{
     width: 100%;
     display: flex;
+    margin-bottom: 80px;
     
 }
 img{
@@ -21,7 +22,8 @@ img{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    margin-left: 40px;
+    padding-left: 30px;
 }
 .content h1{
     font-size: 50px;
@@ -60,4 +62,53 @@ img{
     background-image: url(../img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px !important;
+}
+/* footer section start from here */
+.expreience-area{
+    width: 100%;
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.expreience-area .head{
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0;
+}
+.exp-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+.exp-item h1{
+    font-size: 40px;
+    
+}
+.exp-item h3{
+    color: #FFA500;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image:linear-gradient(180deg,red,blue);
+    border-image-slice: 1;
+    height: 80%;
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image:linear-gradient(180deg,green,blue);
+    border-image-slice: 1;
+
+}
+
+/* footer section end from here */
+.copyright{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    margin: 20px 0;
 }
